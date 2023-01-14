@@ -32,7 +32,7 @@
     "husky": "^8.0.0"
   },
   "dependencies": {
-    "siwe": "file:packages/siwe",
-    "siwe-parser": "file:packages/siwe-parser"
+    "siwe": "./packages/siwe",
+    "siwe-parser": "./packages/siwe-parser"
   }
 }
