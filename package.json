@@ -14,7 +14,7 @@
     "bootstrap": "lerna bootstrap && lerna exec npm install",
     "build": "lerna run build",
     "test": "jest",
-    "prepare": "npm run build && husky install",
+    "prepare": "npm run bootstrap && npm run build && husky install",
     "docs": "typedoc --plugin nlfurniss-typedoc-plugin-sourcefile-url --plugin typedoc-plugin-extras --sourcefile-url-prefix 'https://github.com/spruceid/siwe' --favicon ./favicon.svg --out docs packages/siwe/lib/siwe.ts"
   },
   "author": "Spruce Systems Inc.",
